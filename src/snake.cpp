@@ -14,7 +14,7 @@ Snake ::Snake(int block_size)
 void Snake :: Reset()
 {
     m_snakeBody.clear();
-    m_snakeBody.push_back(SnakeSegment(5,6));
+    m_snakeBody.push_back(SnakeSegment(5,7));
     m_snakeBody.push_back(SnakeSegment(5,6));
     m_snakeBody.push_back(SnakeSegment(5,5));
 
@@ -238,8 +238,3 @@ Direction Snake ::getPhysicalDirection()
 
     return Direction :: None;
 }
-
-
-
-
-
